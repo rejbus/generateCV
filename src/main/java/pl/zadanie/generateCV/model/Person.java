@@ -4,7 +4,7 @@ public class Person {
     private String firstName;
     private String lastName;
     private String birthDate;
-    private String addreess;
+    private String address;
     private String email;
     private String phone;
     private String fullName;
@@ -51,12 +51,12 @@ public class Person {
         this.birthDate = birthDate;
     }
 
-    public String getAddreess() {
-        return addreess;
+    public String getAddress() {
+        return  address;
     }
 
-    public void setAddreess(String addreess) {
-        this.addreess = addreess;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getEmail() {
